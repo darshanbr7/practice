@@ -18,5 +18,5 @@ sum(3,5)
 
 // when function body in one line not needed to use flower brocket
 
-let sum1=(a,b)=>console.log(a+b)
-sum1(3,6)
+let sum1=(a,b)=>console.log(a/b)
+ sum1(3,6)

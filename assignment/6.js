@@ -1,0 +1,1 @@
+document.getElementById("abc").innerHTML="hello gm"

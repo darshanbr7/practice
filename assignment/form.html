@@ -6,17 +6,20 @@
         </title>
         <script>
             function data_check(){
-                 document.getElementById("hello").innerHTML="plese fill"}
+              document.getElementById("hello").innerHTML="plese fill"
+              return false
+                }
+           
         </script>
     </head>
     <body>
-        <form>
+        <form >
             <label> name:</label>
-            <input type="text " id="student"><br>
-            <span id="validate">
+            <input type="text " ><br>
+            <span id="hello" return >
 
             </span><br>
-            <input type="submit" value="login" id="hello" onclick="data_check()"/>
+            <input type="submit" value="login" onclick=" data_check()"/>
         </form>
     </body>
 </html>

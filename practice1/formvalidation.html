@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function oncheck(){
+               let a=document.getElementById("name").value
+               let b=document.getElementById("pass").value
+               if(a == ""){
+                document.getElementById("abs").innerHTML=" pls fill the code"
+               }else if(a.length<5){
+                document.getElementById("abs").innerHTML="name should be gretar than 5 character"
+               }else if(a.length>10){
+                document.getElementById("abs").innerHTML=" name should be in less than 10 character"
+               } else if((a.length>=5)||(a.length<=10)){
+                document.getElementById("abs").innerHTML=""
+               }
+               if(b==""){
+                document.getElementById("abc").innerHTML=" pls enter password"
+               } else if(b.length<7){
+                document.getElementById("abc").innerHTML="password is should be gretar than 7 character"
+               }else if(b.length>12){
+                document.getElementById("abc").innerHTML="password should be less than 12 character"
+               }
+               else if((b.length>=7)||(b.length<=12)){
+                document.getElementById("abc").innerHTML
+               }
+               return false
+            }
+
+        </script>
+    </head>
+    <body >
+        <form onsubmit="return oncheck()">
+            <label > name</label>
+            <input type="text" id="name" ><br>
+            <span  id="abs">
+            </span><br>
+            <label> password</label>
+            <input type="password" id="pass"><br>
+            <span id="abc"></span><br>
+            
+            <button > login</button>
+        </form>
+    </body>
+</html>

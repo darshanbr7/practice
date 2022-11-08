@@ -1,3 +1,6 @@
+/* in the constructor we can individally assign the propreties to te object
+in  class we mainly use the this keyword it is help to access the properties 
+ if we use none other than this keyword it shows the error*/ 
 class Bank_account{
 id; 
 name;

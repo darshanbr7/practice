@@ -1,4 +1,4 @@
-// function inside a function are called callback function
+// while invoking a fucnction ,passing the function as an arguement callback function
 
 let calbac=(a,b, calback)=>{
     return calback(a,b)
@@ -7,4 +7,4 @@ let calbac=(a,b, calback)=>{
  let r1=calbac( 40,40,(a,b)=>{
     return a+b
  })
- console.log(r1)
+ console.log(r1)          
